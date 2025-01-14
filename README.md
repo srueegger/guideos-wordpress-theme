@@ -1,11 +1,11 @@
 # Guide OS Theme
 
-**Contributors:** Samuel Rüegger
-**Requires at least:** 6.7
-**Tested up to:** 6.7
-**Requires PHP:** 5.7
-**License:** GPLv2
-**License URI:** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
+* **Contributors:** Samuel Rüegger
+* **Requires at least:** 6.7
+* **Tested up to:** 6.7
+* **Requires PHP:** 5.7
+* **License:** GPLv2
+* **License URI:** [http://www.gnu.org/licenses/gpl-2.0.html](http://www.gnu.org/licenses/gpl-2.0.html)
 
 ## Description
 
