@@ -1,0 +1,186 @@
+{
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#1e73be",
+					"name": "Blau",
+					"slug": "custom-blau"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Weiss",
+					"slug": "custom-weiss"
+				},
+				{
+					"color": "#dedede",
+					"name": "Grau",
+					"slug": "custom-grau"
+				},
+				{
+					"color": "#000",
+					"name": "Schwarz",
+					"slug": "custom-schwarz"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "970px"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Vollkorn",
+							"fontStyle": "italic",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Italic-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontFamily": "Vollkorn",
+							"fontStyle": "normal",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "Vollkorn, serif",
+					"name": "Vollkorn",
+					"slug": "vollkorn"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Fira Code\"",
+							"fontStyle": "normal",
+							"fontWeight": "300 700",
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Fira Code\", monospace",
+					"name": "Fira Code",
+					"slug": "fira-code"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/post-author-name": {
+				"typography": {
+					"fontWeight": "300"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "300"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontWeight": "400",
+					"letterSpacing": "-0.96px"
+				}
+			},
+			"core/pullquote": {
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontFamily": "var(--wp--preset--font-family--fira-code)",
+							"fontWeight": "300",
+							"letterSpacing": "-0.14px"
+						}
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--vollkorn)",
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"fontWeight": "400"
+				}
+			},
+			"core/quote": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--fira-code)",
+					"fontWeight": "500",
+					"letterSpacing": "-0.18px"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--vollkorn)",
+					"fontSize": "var(--wp--preset--font-size--x-large)"
+				}
+			}
+		},
+		"color": {
+			"background": "#f6f6f6",
+			"text": "var(--wp--preset--color--custom-schwarz)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--custom-blau)",
+					"text": "var(--wp--preset--color--custom-weiss)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--fira-code)",
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "400",
+					"letterSpacing": "-0.36px"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "48px",
+					"letterSpacing": "-0.96px;"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "38px",
+					"letterSpacing": "-0.96px"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "32px",
+					"letterSpacing": "-0.64px"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "28px",
+					"letterSpacing": "-0.56px"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "24px",
+					"letterSpacing": "-0.48px"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-blau)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--vollkorn)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--fira-code)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"letterSpacing": "-0.18px",
+			"lineHeight": "1.5"
+		}
+	},
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}
