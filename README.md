@@ -1,6 +1,6 @@
 # Guide OS Theme
 
-* **Contributors:** Samuel Rüegger
+* **Contributors:** [Samuel Rüegger](https://github.com/srueegger/)
 * **Requires at least:** 6.7
 * **Tested up to:** 6.7
 * **Requires PHP:** 5.7
@@ -9,7 +9,7 @@
 
 ## Description
 
-WordPress Theme für die GuideOS Webseite
+WordPress Theme für die GuideOS Webseite.
 
 ## Changelog
 
