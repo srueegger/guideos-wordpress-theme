@@ -1,0 +1,9 @@
+:where(.wp-site-blocks *:focus) {
+	outline: none !important;
+}
+
+@media (max-width: 767.98px) {
+	.wp-block-columns.mobile-reverse-rows {
+		flex-direction: column-reverse;
+	}
+}
