@@ -1,1 +1,11 @@
 .DS_Store
+wp-admin/
+wp-includes/
+wp-content/*
+!wp-content/themes/
+wp-content/themes/twentytwentyfive/
+!wp-content/themes/guide-os-theme/
+/*.php
+/*.html
+/*.txt
+.htaccess
