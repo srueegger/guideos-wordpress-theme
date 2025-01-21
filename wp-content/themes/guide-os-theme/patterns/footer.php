@@ -16,16 +16,16 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"medium"} -->
-<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:700">Meta</h3>
+<div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|custom-weiss"}}}},"textColor":"custom-weiss","fontSize":"medium"} -->
+<h3 class="wp-block-heading has-custom-weiss-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:700">Meta</h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"white","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"medium"} -->
-<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:700">LinuxGuides</h3>
+<div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|custom-weiss"}}}},"textColor":"custom-weiss","fontSize":"medium"} -->
+<h3 class="wp-block-heading has-custom-weiss-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:700">LinuxGuides</h3>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"textColor":"white","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical"}} /--></div>
