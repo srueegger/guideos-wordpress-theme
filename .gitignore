@@ -9,3 +9,4 @@ wp-content/themes/twentytwentyfive/
 /*.html
 /*.txt
 .htaccess
+!README.md
