@@ -7,12 +7,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 function guideos_theme_enqueue_styles_and_scripts() {
 	$css_url = get_stylesheet_directory_uri() . '/assets/css/global.css';
 	$modificated_css = date( 'YmdHis', filemtime( get_stylesheet_directory() . '/assets/css/global.css' ) );
+  $modificated_css_darkmode = date( 'YmdHis', filemtime( get_stylesheet_directory() . '/assets/css/darkmode.css' ) );
 	// Für das Frontend
 	wp_enqueue_style( 'guideos-global-styles', $css_url, array(), $modificated_css );
+  wp_enqueue_style( 'guideos-darkmode-styles', get_stylesheet_directory_uri() . '/assets/css/darkmode.css', array('guideos-global-styles'), $modificated_css_darkmode );
 	// Für den Block-Editor
 	if (is_admin()) {
 		/* Custom Styles im Editor laden */
 		wp_enqueue_style( 'guideos-block-editor-global-styles', $css_url, array(), $modificated_css );
+    wp_enqueue_style( 'guideos-block-editor-darkmode-styles', get_stylesheet_directory_uri() . '/assets/css/darkmode.css', array('guideos-block-editor-global-styles'), $modificated_css_darkmode );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'guideos_theme_enqueue_styles_and_scripts', 100 );
