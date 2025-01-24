@@ -58,6 +58,12 @@ add_action('admin_menu', function () {
 // Remove comments links from admin bar
 add_action('init', function () {
   if (is_admin_bar_showing()) {
-      remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);
+    remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);
   }
 });
+
+/* Remove Post Tags */
+function unregister_tags() {
+  unregister_taxonomy_for_object_type( 'post_tag', 'post' );
+}
+add_action( 'init', 'unregister_tags' );
