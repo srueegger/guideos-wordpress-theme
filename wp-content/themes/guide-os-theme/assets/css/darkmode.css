@@ -3,7 +3,11 @@
     --wp-preset-color-black: #f6f6f6;
     --wp--preset--color--custom-schwarz: #f6f6f6;
   }
-  body {
+  body,
+  .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
     background-color: #121212;
+  }
+  .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+    color: var(--wp--preset--color--custom-schwarz);
   }
 }
