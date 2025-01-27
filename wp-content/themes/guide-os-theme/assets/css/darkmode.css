@@ -10,4 +10,14 @@
   .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
     color: var(--wp--preset--color--custom-schwarz);
   }
+  .gform_wrapper {
+    label,
+    legend.gfield_label,
+    .gfield_description {
+      color: #f6f6f6 !important;
+    }
+    .gpfup__droparea {
+      border-color: rgba(222, 222, 222, 0.35);
+    }
+  }
 }
