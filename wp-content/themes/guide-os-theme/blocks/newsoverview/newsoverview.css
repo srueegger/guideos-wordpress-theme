@@ -18,6 +18,12 @@
                 bottom: -30%;
                 transform: translate(50%, -30%);
             }
+            &:hover,
+            &:focus {
+                .content {
+                    transform: translate(50%, -30%) scale(1.05);
+                }
+            }
         }
     }
 }
@@ -37,12 +43,24 @@
                 bottom: -50%;
                 transform: translate(50%, -50%);
             }
+            &:hover,
+            &:focus {
+                .content {
+                    transform: translate(50%, -50%) scale(1.05);
+                }
+            }
         }
         .news-overview-item {
             margin-bottom: 20%;
             .content {
                 bottom: -60%;
                 transform: translate(50%, -60%);
+            }
+            &:hover,
+            &:focus {
+                .content {
+                    transform: translate(50%, -60%) scale(1.05);
+                }
             }
         }
     }
