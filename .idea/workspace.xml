@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces PHPStorm configuration files to support PHP development and streamline DDEV integration. It includes settings for data sources, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter. These configurations enhance the development workflow and ensure consistent IDE behavior.">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/inc/acf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/inc/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance.">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/Gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/assets/js/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" afterDir="false" />
     </list>
@@ -72,6 +66,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Datenbankskript.wp_ac_segments.sql und 44 weitere.executor": "Run",
+    "Gulp.js.default.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig": "24d12a80-8681-4bd0-9a9e-1c07ea7946a8",
@@ -81,6 +76,7 @@
     "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig": "15a5a985-cb97-4e49-87f6-ef0a76880adc",
     "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig.hash": "d217db01",
     "git-widget-placeholder": "news-overview",
+    "js.buildTools.gulp.gulp_package_dir": "/home/srueegger/Sites/guideos.de/wp-content/themes/guide-os-theme/node_modules/gulp",
     "last_opened_file_path": "/home/srueegger/Sites/guideos.de",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -99,7 +95,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Datenbankskript.wp_ac_segments.sql und 44 weitere">
     <configuration name="wp_ac_segments.sql und 44 weitere" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/wp-content/uploads/backupbuddy_temp/0z8xexs0kr/wp_ac_segments.sql" />
       <script-file value="$PROJECT_DIR$/wp-content/uploads/backupbuddy_temp/0z8xexs0kr/wp_actionscheduler_actions.sql" />
@@ -150,6 +146,31 @@
       <data-source id="24d12a80-8681-4bd0-9a9e-1c07ea7946a8" namespace="schema/&quot;db&quot;" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/wp-content/themes/guide-os-theme/Gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.default" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -168,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741462014430</updated>
       <workItem from="1741462017490" duration="1506000" />
-      <workItem from="1741463528623" duration="787000" />
+      <workItem from="1741463528623" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial PHPStorm project configuration files&#10;&#10;This commit includes PHPStorm-specific configuration files such as IDE settings, module definitions, VCS mappings, and a `.gitignore` for the `.idea` directory. These files streamline project setup and enforce consistent development environment settings.">
       <option name="closed" value="true" />
@@ -202,7 +223,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741463612199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add ACF block for News Overview to theme&#10;&#10;Introduced a new ACF Gutenberg block, &quot;News Übersicht,&quot; with corresponding registration, template, and styles. Included required structure for block functionality, registered it in `acf.php`, and updated `functions.php` for proper inclusion.">
+      <option name="closed" value="true" />
+      <created>1741464393641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741464393641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update PHPStorm configuration for PHP and DDEV integration&#10;&#10;Revised IDE configuration to include improved PHP interpreter settings, DDEV support, and remote mappings. These changes ensure better alignment with the development environment and streamline the workflow for consistent project setup.">
+      <option name="closed" value="true" />
+      <created>1741464404846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741464404846</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update .gitignore to exclude build and asset files&#10;&#10;Added patterns to ignore node_modules, package-lock.json, and minified CSS/JS files in specific directories. This improves project file management by preventing unnecessary files from being tracked in version control.">
+      <option name="closed" value="true" />
+      <created>1741465062645</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741465062645</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +258,10 @@
     <MESSAGE value="Add DDEV configuration file for WordPress project setup&#10;&#10;This commit introduces a `.ddev/config.yaml` file tailored for a WordPress project. It specifies project details, such as PHP 8.3, MariaDB 10.11, and the use of nginx-fpm as the webserver. DDEV will streamline local development with predefined configurations and features." />
     <MESSAGE value="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces IDE configuration files to support PHP development and seamless integration with DDEV. It includes datasource, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter settings for a streamlined development workflow." />
     <MESSAGE value="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces PHPStorm configuration files to support PHP development and streamline DDEV integration. It includes settings for data sources, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter. These configurations enhance the development workflow and ensure consistent IDE behavior." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces PHPStorm configuration files to support PHP development and streamline DDEV integration. It includes settings for data sources, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter. These configurations enhance the development workflow and ensure consistent IDE behavior." />
+    <MESSAGE value="Add ACF block for News Overview to theme&#10;&#10;Introduced a new ACF Gutenberg block, &quot;News Übersicht,&quot; with corresponding registration, template, and styles. Included required structure for block functionality, registered it in `acf.php`, and updated `functions.php` for proper inclusion." />
+    <MESSAGE value="Update PHPStorm configuration for PHP and DDEV integration&#10;&#10;Revised IDE configuration to include improved PHP interpreter settings, DDEV support, and remote mappings. These changes ensure better alignment with the development environment and streamline the workflow for consistent project setup." />
+    <MESSAGE value="Update .gitignore to exclude build and asset files&#10;&#10;Added patterns to ignore node_modules, package-lock.json, and minified CSS/JS files in specific directories. This improves project file management by preventing unnecessary files from being tracked in version control." />
+    <MESSAGE value="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance." />
   </component>
 </project>
