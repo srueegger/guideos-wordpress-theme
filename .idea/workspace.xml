@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Change block icon to 'megaphone' and update configuration files&#10;&#10;Updated the icon for the 'newsoverview' block to 'megaphone' in `block.json` for better representation. Also adjusted PHPStorm configuration files and database source settings to reflect recent changes in the development environment.">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.php" afterDir="false" />
+    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Add NewsOverview block with custom rendering and styling&#10;&#10;Introduced a new NewsOverview block template for WordPress, complete with rendering logic in PHP and responsive grid-based styling in CSS. Enhanced block functionality includes dynamic post fetching, custom excerpt length, and hover effects for improved UX. Updated related configuration files to reflect the new block integration.">
       <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741462014430</updated>
       <workItem from="1741462017490" duration="1506000" />
-      <workItem from="1741463528623" duration="6925000" />
+      <workItem from="1741463528623" duration="7079000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial PHPStorm project configuration files&#10;&#10;This commit includes PHPStorm-specific configuration files such as IDE settings, module definitions, VCS mappings, and a `.gitignore` for the `.idea` directory. These files streamline project setup and enforce consistent development environment settings.">
       <option name="closed" value="true" />
@@ -264,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741466421400</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add NewsOverview block with custom rendering and styling&#10;&#10;Introduced a new NewsOverview block template for WordPress, complete with rendering logic in PHP and responsive grid-based styling in CSS. Enhanced block functionality includes dynamic post fetching, custom excerpt length, and hover effects for improved UX. Updated related configuration files to reflect the new block integration.">
+      <option name="closed" value="true" />
+      <created>1741470551762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741470551762</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +284,7 @@
     <MESSAGE value="Update .gitignore to exclude build and asset files&#10;&#10;Added patterns to ignore node_modules, package-lock.json, and minified CSS/JS files in specific directories. This improves project file management by preventing unnecessary files from being tracked in version control." />
     <MESSAGE value="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance." />
     <MESSAGE value="Change block icon to 'megaphone' and update configuration files&#10;&#10;Updated the icon for the 'newsoverview' block to 'megaphone' in `block.json` for better representation. Also adjusted PHPStorm configuration files and database source settings to reflect recent changes in the development environment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change block icon to 'megaphone' and update configuration files&#10;&#10;Updated the icon for the 'newsoverview' block to 'megaphone' in `block.json` for better representation. Also adjusted PHPStorm configuration files and database source settings to reflect recent changes in the development environment." />
+    <MESSAGE value="Add NewsOverview block with custom rendering and styling&#10;&#10;Introduced a new NewsOverview block template for WordPress, complete with rendering logic in PHP and responsive grid-based styling in CSS. Enhanced block functionality includes dynamic post fetching, custom excerpt length, and hover effects for improved UX. Updated related configuration files to reflect the new block integration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add NewsOverview block with custom rendering and styling&#10;&#10;Introduced a new NewsOverview block template for WordPress, complete with rendering logic in PHP and responsive grid-based styling in CSS. Enhanced block functionality includes dynamic post fetching, custom excerpt length, and hover effects for improved UX. Updated related configuration files to reflect the new block integration." />
   </component>
 </project>

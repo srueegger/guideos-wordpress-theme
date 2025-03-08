@@ -76,3 +76,9 @@ function guideos_excerpt_length( $length ) {
   return 10;
 }
 add_filter( 'excerpt_length', 'guideos_excerpt_length', 999 );
+
+//Wordpress Excerpt endzeichen in drei Punkte ändern
+function guideos_excerpt_more( $more ) {
+  return '...';
+}
+add_filter( 'excerpt_more', 'guideos_excerpt_more' );
