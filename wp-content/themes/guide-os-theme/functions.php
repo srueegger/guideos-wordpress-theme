@@ -70,3 +70,9 @@ function unregister_tags() {
   unregister_taxonomy_for_object_type( 'post_tag', 'post' );
 }
 add_action( 'init', 'unregister_tags' );
+
+//Wordpress Standard Exceprt Länge anpassen
+function guideos_excerpt_length( $length ) {
+  return 10;
+}
+add_filter( 'excerpt_length', 'guideos_excerpt_length', 999 );

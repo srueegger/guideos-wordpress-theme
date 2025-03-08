@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Change block icon to 'megaphone' and update configuration files&#10;&#10;Updated the icon for the 'newsoverview' block to 'megaphone' in `block.json` for better representation. Also adjusted PHPStorm configuration files and database source settings to reflect recent changes in the development environment.">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +190,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741462014430</updated>
       <workItem from="1741462017490" duration="1506000" />
-      <workItem from="1741463528623" duration="2879000" />
+      <workItem from="1741463528623" duration="6925000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial PHPStorm project configuration files&#10;&#10;This commit includes PHPStorm-specific configuration files such as IDE settings, module definitions, VCS mappings, and a `.gitignore` for the `.idea` directory. These files streamline project setup and enforce consistent development environment settings.">
       <option name="closed" value="true" />
@@ -253,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741466065519</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change block icon to 'megaphone' and update configuration files&#10;&#10;Updated the icon for the 'newsoverview' block to 'megaphone' in `block.json` for better representation. Also adjusted PHPStorm configuration files and database source settings to reflect recent changes in the development environment.">
+      <option name="closed" value="true" />
+      <created>1741466421400</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741466421400</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +279,7 @@
     <MESSAGE value="Update PHPStorm configuration for PHP and DDEV integration&#10;&#10;Revised IDE configuration to include improved PHP interpreter settings, DDEV support, and remote mappings. These changes ensure better alignment with the development environment and streamline the workflow for consistent project setup." />
     <MESSAGE value="Update .gitignore to exclude build and asset files&#10;&#10;Added patterns to ignore node_modules, package-lock.json, and minified CSS/JS files in specific directories. This improves project file management by preventing unnecessary files from being tracked in version control." />
     <MESSAGE value="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance." />
+    <MESSAGE value="Change block icon to 'megaphone' and update configuration files&#10;&#10;Updated the icon for the 'newsoverview' block to 'megaphone' in `block.json` for better representation. Also adjusted PHPStorm configuration files and database source settings to reflect recent changes in the development environment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change block icon to 'megaphone' and update configuration files&#10;&#10;Updated the icon for the 'newsoverview' block to 'megaphone' in `block.json` for better representation. Also adjusted PHPStorm configuration files and database source settings to reflect recent changes in the development environment." />
   </component>
 </project>
