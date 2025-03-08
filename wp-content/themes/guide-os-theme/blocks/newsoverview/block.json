@@ -4,7 +4,7 @@
   "description": "Zeigt eine coole Newsübersicht an :)",
   "style": [ "file:./newsoverview.min.css" ],
   "category": "layout",
-  "icon": "businessperson",
+  "icon": "megaphone",
   "keywords": ["news", "overview", "neuigkeiten", "übersicht"],
   "acf": {
     "mode": "preview",

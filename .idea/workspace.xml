@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance.">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/Gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/assets/js/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig": "24d12a80-8681-4bd0-9a9e-1c07ea7946a8",
-    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig.hash": "f702f792",
+    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig.hash": "e91721be",
     "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig": "0d7ac0fe-6dd9-451d-9149-688db715f5b7",
     "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig.hash": "93be1ed5",
     "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig": "15a5a985-cb97-4e49-87f6-ef0a76880adc",
@@ -91,7 +88,8 @@
       "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig",
       "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig",
       "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig",
-      "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig"
+      "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig",
+      "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig"
     ]
   }
 }]]></component>
@@ -189,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741462014430</updated>
       <workItem from="1741462017490" duration="1506000" />
-      <workItem from="1741463528623" duration="2529000" />
+      <workItem from="1741463528623" duration="2879000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial PHPStorm project configuration files&#10;&#10;This commit includes PHPStorm-specific configuration files such as IDE settings, module definitions, VCS mappings, and a `.gitignore` for the `.idea` directory. These files streamline project setup and enforce consistent development environment settings.">
       <option name="closed" value="true" />
@@ -247,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741465062645</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Gulp build tools for CSS/JS minification and watch tasks&#10;&#10;Introduced a new Gulp setup to streamline asset management, including CSS/JS minification, source maps, and a watch task for development. Updated `functions.php` to reference minified CSS files and added necessary dependencies to `package.json`. This improves build automation and performance.">
+      <option name="closed" value="true" />
+      <created>1741466065519</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741466065519</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
