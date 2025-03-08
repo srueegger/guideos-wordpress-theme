@@ -3,6 +3,9 @@ if ( ! defined( 'ABSPATH' ) ) {
   exit; // Exit if accessed directly
 }
 
+//Einfügen weitere Dateien
+require_once 'inc/acf.php';
+
 /* Globale CSS Datei, im Frontend und auch im Block Editor im Backend laden */
 function guideos_theme_enqueue_styles_and_scripts() {
 	$css_url = get_stylesheet_directory_uri() . '/assets/css/global.css';
