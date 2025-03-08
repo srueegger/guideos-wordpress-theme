@@ -1,0 +1,23 @@
+{
+  "name": "acf/newsoverview",
+  "title": "News Übersicht",
+  "description": "Zeigt eine coole Newsübersicht an :)",
+  "style": [ "file:./newsoverview.min.css" ],
+  "category": "layout",
+  "icon": "megaphone",
+  "keywords": ["news", "overview", "neuigkeiten", "übersicht"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "newsoverview.php",
+    "validate": true,
+    "usePostMeta": false
+  },
+  "supports": {
+    "anchor": true,
+    "align": true,
+    "html": false,
+    "multiple": true,
+    "reusable": true,
+    "jsx": false
+  }
+}

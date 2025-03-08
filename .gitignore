@@ -10,3 +10,18 @@ wp-content/themes/twentytwentyfive/
 /*.txt
 .htaccess
 !README.md
+node_modules
+package-lock.json
+# Ignoriere alle .min.css und .min.css.map Dateien im "blocks"-Ordner
+/*/**/blocks/**/*.min.css
+/*/**/blocks/**/*.min.css.map
+
+# Ignoriere alle .min.js und .min.js.map Dateien im "blocks"-Ordner
+/*/**/blocks/**/*.min.js
+/*/**/blocks/**/*.min.js.map
+/wp-content/themes/guide-os-theme/assets/css/darkmode.min.css
+/wp-content/themes/guide-os-theme/assets/js/global.min.js
+/wp-content/themes/guide-os-theme/assets/js/global.min.js.map
+/wp-content/themes/guide-os-theme/assets/css/global.min.css.map
+/wp-content/themes/guide-os-theme/assets/css/global.min.css
+/wp-content/themes/guide-os-theme/assets/css/darkmode.min.css.map
