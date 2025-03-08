@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces IDE configuration files to support PHP development and seamless integration with DDEV. It includes datasource, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter settings for a streamlined development workflow." />
+    <list default="true" id="bce3c44e-172f-438a-9dc9-29edc40dd31f" name="Änderungen" comment="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces PHPStorm configuration files to support PHP development and streamline DDEV integration. It includes settings for data sources, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter. These configurations enhance the development workflow and ensure consistent IDE behavior.">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/blocks/newsoverview/newsoverview.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/inc/acf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/inc/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/guide-os-theme/functions.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="add-ddev" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,39 +61,44 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2u30abJtMMQDAy2AbAM7wDlSIgJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Datenbankskript.wp_ac_segments.sql und 44 weitere.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig&quot;: &quot;24d12a80-8681-4bd0-9a9e-1c07ea7946a8&quot;,
-    &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig.hash&quot;: &quot;f702f792&quot;,
-    &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig&quot;: &quot;a3a6fac8-be78-4058-8e44-e3c11dc0db7c&quot;,
-    &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig.hash&quot;: &quot;93be1ed5&quot;,
-    &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig&quot;: &quot;15a5a985-cb97-4e49-87f6-ef0a76880adc&quot;,
-    &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig.hash&quot;: &quot;d217db01&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/srueegger/Sites/guideos.de&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Datenbankskript.wp_ac_segments.sql und 44 weitere.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig": "24d12a80-8681-4bd0-9a9e-1c07ea7946a8",
+    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig.hash": "f702f792",
+    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig": "0d7ac0fe-6dd9-451d-9149-688db715f5b7",
+    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig.hash": "93be1ed5",
+    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig": "15a5a985-cb97-4e49-87f6-ef0a76880adc",
+    "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig.hash": "d217db01",
+    "git-widget-placeholder": "news-overview",
+    "last_opened_file_path": "/home/srueegger/Sites/guideos.de",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;de.php_perfect.intellij.ddev.index&quot;: [
-      &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig&quot;,
-      &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig&quot;,
-      &quot;de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig&quot;
+  "keyToStringList": {
+    "de.php_perfect.intellij.ddev.index": [
+      "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.server.ServerConfig",
+      "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig",
+      "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.database.DataSourceConfig",
+      "de.php_perfect.intellij.ddev.de.php_perfect.intellij.ddev.php.DdevInterpreterConfig"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="wp_ac_segments.sql und 44 weitere" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/wp-content/uploads/backupbuddy_temp/0z8xexs0kr/wp_ac_segments.sql" />
@@ -151,6 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741462014430</updated>
       <workItem from="1741462017490" duration="1506000" />
+      <workItem from="1741463528623" duration="787000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial PHPStorm project configuration files&#10;&#10;This commit includes PHPStorm-specific configuration files such as IDE settings, module definitions, VCS mappings, and a `.gitignore` for the `.idea` directory. These files streamline project setup and enforce consistent development environment settings.">
       <option name="closed" value="true" />
@@ -176,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741463340351</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces PHPStorm configuration files to support PHP development and streamline DDEV integration. It includes settings for data sources, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter. These configurations enhance the development workflow and ensure consistent IDE behavior.">
+      <option name="closed" value="true" />
+      <created>1741463612199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741463612199</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +212,7 @@
     <MESSAGE value="Add initial PHPStorm project configuration files&#10;&#10;This commit includes PHPStorm-specific configuration files such as IDE settings, module definitions, VCS mappings, and a `.gitignore` for the `.idea` directory. These files streamline project setup and enforce consistent development environment settings." />
     <MESSAGE value="Add DDEV configuration file for WordPress project setup&#10;&#10;This commit introduces a `.ddev/config.yaml` file tailored for a WordPress project. It specifies project details, such as PHP 8.3, MariaDB 10.11, and the use of nginx-fpm as the webserver. DDEV will streamline local development with predefined configurations and features." />
     <MESSAGE value="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces IDE configuration files to support PHP development and seamless integration with DDEV. It includes datasource, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter settings for a streamlined development workflow." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces IDE configuration files to support PHP development and seamless integration with DDEV. It includes datasource, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter settings for a streamlined development workflow." />
+    <MESSAGE value="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces PHPStorm configuration files to support PHP development and streamline DDEV integration. It includes settings for data sources, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter. These configurations enhance the development workflow and ensure consistent IDE behavior." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add IDE configuration for PHP and DDEV integration&#10;&#10;This commit introduces PHPStorm configuration files to support PHP development and streamline DDEV integration. It includes settings for data sources, remote mappings, code quality tools (PHP Mess Detector, PHP CodeSniffer), and PHP interpreter. These configurations enhance the development workflow and ensure consistent IDE behavior." />
   </component>
 </project>

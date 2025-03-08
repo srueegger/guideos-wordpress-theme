@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="MessDetector">
-    <phpmd_settings>
-      <phpmd_by_interpreter asDefaultInterpreter="true" interpreter_id="64393c0a-8336-4a97-bbe9-a84741935ebb" timeout="30000" />
-    </phpmd_settings>
-  </component>
-  <component name="MessDetectorOptionsConfiguration">
-    <option name="transferred" value="true" />
-  </component>
-  <component name="PHPCSFixerOptionsConfiguration">
-    <option name="transferred" value="true" />
-  </component>
-  <component name="PHPCodeSnifferOptionsConfiguration">
-    <option name="highlightLevel" value="WARNING" />
-    <option name="transferred" value="true" />
-  </component>
-  <component name="PhpCodeSniffer">
-    <phpcs_settings>
-      <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="64393c0a-8336-4a97-bbe9-a84741935ebb" timeout="30000" />
-    </phpcs_settings>
-  </component>
-  </component>
-  <component name="PhpStanOptionsConfiguration">
-    <option name="transferred" value="true" />
-  </component>
-  <component name="PsalmOptionsConfiguration">
-    <option name="transferred" value="true" />
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="0d7ac0fe-6dd9-451d-9149-688db715f5b7" name="guideos.de" home="docker-compose://DATA" auto="false" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php8.3" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="web" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+          <PathMappingSettings>
+            <option name="pathMappings">
+              <list>
+                <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html" />
+                <mapping local-root="$PROJECT_DIR$/.ddev" remote-root="/mnt/ddev_config" />
+                <mapping local-root="$PROJECT_DIR$/.ddev/xhprof" remote-root="/usr/local/bin/xhprof" />
+                <mapping local-root="$APPLICATION_CONFIG_DIR$/scratches" remote-root="/opt/scratches" />
+              </list>
+            </option>
+          </PathMappingSettings>
+          <type_data command="EXEC" />
+          <dockerComposeConfigurationPaths>
+            <item value="$PROJECT_DIR$/.ddev/.ddev-docker-compose-full.yaml" />
+          </dockerComposeConfigurationPaths>
+          <envs>
+            <env name="COMPOSE_PROJECT_NAME" value="ddev-guideosde" />
+          </envs>
+        </remote_data>
+      </interpreter>
+    </interpreters>
   </component>
 </project>
